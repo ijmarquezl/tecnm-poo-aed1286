@@ -1,0 +1,26 @@
+# Archivos de compilación y salida de .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración de IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Archivos temporales de pruebas y persistencia
+*.log
+catalogo_prueba.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Script de generacion de archivos del repo
+generador_poo_csharp.py

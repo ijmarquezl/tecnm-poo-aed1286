@@ -1,0 +1,19 @@
+{
+  "name": "POO TecNM Cancún - AED-1286",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.enable": {
+          "*": false,
+          "csharp": false,
+          "markdown": false
+        },
+        "github.copilot.editor.enableAutoCompletions": false
+      },
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
+    }
+  }
+}
