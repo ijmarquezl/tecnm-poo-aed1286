@@ -65,9 +65,9 @@ En software, es la capacidad de tratar a un grupo de objetos distintos como si f
 
 Si tienes una colección heterogénea:
 
-```Plaintext
+```text
 List<FiguraGeometrica> lienzo = [ Circulo, Rectangulo, Circulo ];
-
+```
 Puedes recorrer la lista con un solo ciclo y ordenar a todos: figura.CalcularArea().
 
 El compilador y la máquina virtual se encargarán en tiempo de ejecución (ligadura dinámica) de ejecutar la fórmula matemática correcta para cada objeto individual sin usar if ni switch.
