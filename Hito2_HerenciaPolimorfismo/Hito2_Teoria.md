@@ -76,25 +76,25 @@ El compilador y la máquina virtual se encargarán en tiempo de ejecución (liga
 Una Interfaz no describe qué es el objeto, sino qué sabe hacer (una capacidad o contrato).
 
 Diferencia crucial: Clase Abstracta vs. Interfaz
-Clase Abstracta ("Qué es"): Identidad y parentesco. Un Circulo es una FiguraGeometrica. Comparte atributos físicos protegidos (como el nombre o el color).
+- Clase Abstracta ("Qué es"): Identidad y parentesco. Un Circulo es una FiguraGeometrica. Comparte atributos físicos protegidos (como el nombre o el color).
 
-Interfaz ("Qué puede hacer"): Un contrato estricto.
+- Interfaz ("Qué puede hacer"): Un contrato estricto.
 
-Imagina la interfaz IDibujable con la orden Dibujar().
+  Imagina la interfaz IDibujable con la orden Dibujar().
 
-Un Circulo se puede dibujar.
+    - Un Circulo se puede dibujar.
 
-Un Rectangulo se puede dibujar.
+    - Un Rectangulo se puede dibujar.
 
-Un BotonDePantalla se puede dibujar (¡pero no es una figura geométrica!).
+    - Un BotonDePantalla se puede dibujar (¡pero no es una figura geométrica!).
 
-Un Texto se puede dibujar (¡tampoco es una figura geométrica!).
+    - Un Texto se puede dibujar (¡tampoco es una figura geométrica!).
 
-Una clase solo puede tener un padre biológico (herencia simple), pero puede firmar y cumplir múltiples contratos (interfaces).
+    - Una clase solo puede tener un padre biológico (herencia simple), pero puede firmar y cumplir múltiples contratos (interfaces).
 
 ## 6. Preguntas de Autoevaluación
-Si una clase abstracta no se puede instanciar con new, ¿para qué sirve programarla?
+1. Si una clase abstracta no se puede instanciar con new, ¿para qué sirve programarla?
 
-¿Por qué es una mala práctica abusar de condicionales if (tipo == "Circulo") en lugar de usar polimorfismo?
+2. ¿Por qué es una mala práctica abusar de condicionales if (tipo == "Circulo") en lugar de usar polimorfismo?
 
-Da un ejemplo real donde dos objetos de familias totalmente distintas compartan la misma interfaz.
+3. Da un ejemplo real donde dos objetos de familias totalmente distintas compartan la misma interfaz.
