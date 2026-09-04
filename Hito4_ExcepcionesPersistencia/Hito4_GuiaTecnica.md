@@ -103,6 +103,7 @@ public Producto Obtener(string codigo)
 En .NET 8 no necesitas instalar librerías externas; utilizas System.Text.Json y System.IO.
 
 ### Guardar la lista completa en un archivo JSON:
+
 public void GuardarEnDisco()
 {
     // Opciones para que el JSON quede formateado y legible (con saltos de línea)
@@ -116,6 +117,7 @@ public void GuardarEnDisco()
 }
 
 ### Leer y restaurar los objetos desde el archivo:
+
 public void CargarDesdeDisco()
 {
     if (!File.Exists(_rutaArchivo))
